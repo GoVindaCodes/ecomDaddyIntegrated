@@ -43,7 +43,7 @@ const AttributeList = ({ variants, variantTitle, lang, currency }) => {
                       if (attributeName === undefined) {
                         return attributeName?.en;
                       } else {
-                        return showingTranslateValue(attributeName.en, lang);
+                        return showingTranslateValue(attributeName, lang);
                       }
                     })
                     ?.filter(Boolean)

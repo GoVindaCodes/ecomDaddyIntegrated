@@ -26,7 +26,7 @@ const AttributeOption = ({
 
 
       setSelectionLimit("1");
-      // setAttributeOptions([el]);
+      setAttributeOptions([el]);
     } else {
 
       setSelectionLimit(null);
